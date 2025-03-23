@@ -1,4 +1,4 @@
-# Créé par DABLANCF, le 16/01/2025 en Python 3.7
+
 
 class Personne():
   """
@@ -24,12 +24,11 @@ class Personne():
       Déterminé à partir de la date de naissance. Initialisée à -1
   """
 
-  def __init__(self, nom: str, prenom: str,email: str,telephone: str,date_naissance:str,jour_naissance:int,mois_naissance:int,annee_naissance:int) -> None:
+  def __init__(self, nom: str, prenom: str,email: str,telephone: str,jour_naissance:int,mois_naissance:int,annee_naissance:int) -> None:
       self.nom=nom
       self.prenom=prenom
       self.email=email
       self.telephone=telephone
-      self.date_naissance=date_naissance
       self.jour_naissance=jour_naissance
       self.mois_naissance=mois_naissance
       self.annee_naissance=annee_naissance
